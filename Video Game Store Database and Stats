@@ -1,0 +1,17 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, game TEXT, genre TEXT, percentage_complete INTEGER, score INTEGER, price INTEGER) ;
+
+INSERT INTO store VALUES (1, "Mega Man X2", "2D Platformer", 100, 96, 15) ;
+INSERT INTO store VALUES (2, "Chrono Trigger", "JRPG", 75, 100, 15) ;
+INSERT INTO store VALUES (3, "Dark Souls", "Western Action-Adventure RPG", 90, 99, 25) ;
+INSERT INTO store VALUES (4, "Hades", "Rogue-like", 40, 95, 30) ;
+INSERT INTO store VALUES (5, "DOOM", "First-Person Shooter", 85, 97, 30) ;
+INSERT INTO store VALUES (6, "The Legend of Zelda: A Link Between Worlds", "Top-Down Action Adventure", 12, 100, 20) ;
+INSERT INTO store VALUES (7, "Super Mario Galaxy 2", "Action Adventure", 90, 94, 45) ;
+INSERT INTO store VALUES (8, "Guilty Gear Strive", "2-D Fighting", 0, 85, 45) ;
+INSERT INTO store VALUES (9, "Super Metroid", "2-D Platformer", 72, 99, 15) ;
+INSERT INTO store VALUES (10, "Cuphead", "Run-and-Gun", 88, 95, 25) ;
+INSERT INTO store VALUES (11, "Shovel Knight", "2-D Platformer", 96, 100, 15) ;
+INSERT INTO store VALUES (12, "Pokemon Sapphire", "JRPG", 92, 93, 10) ;
+INSERT INTO store VALUES (13, "Mass Effect 2", "Western RPG", 20, 92, 50) ;
+INSERT INTO store VALUES (14, "Rocket League", "Physics-Based Sports", 20, 90, 20) ;
+INSERT INTO store VALUES (15, "LEGO Star Wars I", "3-D Platformer", 100, 85, 25) ;
